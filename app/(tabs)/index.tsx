@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>
-           Earl John V. Edulan
+                Earl John V. Edulan
             </Text>
         </View>
     )
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-         justifyContent: 'center',
-         alignItems: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
         backgroundColor: '#FFFFF0',
     },
     child1: {
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     },
     text: {
-        color: '#4A4A4A',
+        color: 'black',
         fontSize: 34
     }
 })
